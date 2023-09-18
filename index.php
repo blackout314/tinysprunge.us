@@ -23,7 +23,9 @@ if ( !empty($_POST) )
 </head><body>';
         }
 } else {
-        echo "
-echo 'XXX' | curl -F 'sprunge=<-' $DOMAIN
+        echo "<pre>
+echo 'XXX' | curl -F 'sprunge=<-' $DOMAIN 
+alias -g SP='| curl -F \"sprunge=<-\" $DOMAIN '
+</pre>
 ";
 }
