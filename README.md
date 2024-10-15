@@ -25,3 +25,5 @@ echo 'XXX' | curl -F 'sprunge=<-' $$$DOMAIN$$$
 ```
 http://$$$DOMAIN$$$/?id=xxxx
 ```
+
+[listed in mini self-hosting app](https://github.com/blackout314/awesome-mini-selfhost)
